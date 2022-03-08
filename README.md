@@ -3,12 +3,12 @@ Phong cách kiến trúc cho hệ thống phân phối [hypermedia](https://gith
 Như các phong cách kiến trúc khác, REST cũng có những nguyên tắc và ràng buộc.  
 Một Web API xây dựng theo phong cách REST gọi là *REST API*.  
 ## [Nguyên tắc của REST](https://github.com/tinhphantrong0612/RESTfulAPI/blob/main/ArchitecturalConstraint.md)  
-### Uniform Constraint  
-### Client-server  
-### Stateless  
-### [Cacheable](https://github.com/tinhphantrong0612/RESTfulAPI/blob/main/Caching.md)  
-### Layered System   
-### Code on demand(optional)  
+- Uniform Constraint  
+- Client-server  
+- Stateless  
+- [Cacheable](https://github.com/tinhphantrong0612/RESTfulAPI/blob/main/Caching.md)  
+- Layered System   
+- Code on demand(optional)  
 ## Phát triển API  
 API là một component trừu tượng có tính tái sử dụng, cho biết hành vi mà không để lộ cách hoạt động bên trong.  
 ### API Specification  
