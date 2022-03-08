@@ -7,6 +7,7 @@ Caching là khả năng lưu lại một đại diện tài nguyên nào đó tr
 Server phản hồi request bằng một response. Đường đi của response:  
 - Server tạo response, quy định các HTTP headers, cho biết khả năng cache, ai được cache, và cache trong bao lâu.  
 - Qua mỗi cache, response có thể được sao chép và lưu lại nếu caching metadata cho phép.    
+
 Caching cải thiện chất lượng dịch vụ bằng cách:  
 - Giảm băng thông  
 - Giảm độ trễ  
