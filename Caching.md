@@ -1,6 +1,6 @@
 # Caching  
 Caching là khả năng lưu lại một đại diện tài nguyên nào đó trên đường đi của request-response.  
-Đường đi của một request:
+Đường đi của một request:  
 	- Đi qua một hoặc một loạt cache (local cache, proxy cache, hoặc reverse proxy), nếu một trong các cache có một bản sao của đại diện tài nguyên, thì nó sẽ được dùng để đáp ứng yêu cầu.  
 	- Nếu không có cache, request đi tiếp tới server gốc để yêu cầu tài nguyên, khi đó server sẽ xử lý request.    
 Server phản hồi request bằng một response. Đường đi của response:  

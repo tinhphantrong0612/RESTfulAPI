@@ -11,6 +11,10 @@ Client chỉ cần biết URI của tài nguyên.
 ## 3. Stateless  
 Server không lưu lại thông tin gì về HTTP request của client. Mỗi request sẽ là một request mới, không phiên làm việc, không lịch sử.  
 Client chịu trách nhiệm quản lý trạng thái của ứng dụng. Một khi client đã đăng nhập thành công, thì mỗi request phải đảm bảo đầy đủ thông tin - bao gồm cả authentication và authorization.  
+Lợi ích:  
+	- Scaling API tới hàng triệu người dùng đồng thời bằng cách triển khai trên nhiều server, server cũng không cần lưu lại thông tin session, cải thiện tốc độ.  
+	- Giúp API ít phức tạp - Loại bỏ toàn bộ những logic liên quan tới trạng thái phía server.  
+	- Dễ cache.  
 ## 4. Cacheable  
 Caching dữ liệu trở nên quan trọng đối với hiệu năng của ứng dụng, bằng cách giảm các tương tác giữa client và server.  
 Tài nguyên cần chỉ ra rằng bản thân có thể cache được hay không.  
