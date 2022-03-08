@@ -3,7 +3,7 @@ REST định nghĩa **6 ràng buộc kiến trúc** quy định một RESTful AP
 ## 1. Uniform Interface  
 Mỗi API cần gắn với một tài nguyên cụ thể, duy nhất.  
 Mỗi tài nguyên không nên quá lớn và chứa tất cả thông tin. Thay vào đó, tài nguyên sẽ chứa các liên kết, cho phép truy cập tới các tài nguyên liên quan thông qua liên kết đó, tương tự như quan hệ giữa các bảng trong cơ sở dữ liệu.  
-Các tài nguyên trong hệ thống nên làm theo một quy chuẩn, ví dụ như cách đặt tên, định dạng đường dẫn, định dạnh dữ liệu,....  
+Các tài nguyên trong hệ thống nên làm theo một quy chuẩn, ví dụ như cách đặt tên, định dạng đường dẫn, định dạnh dữ liệu,.... [Hướng dẫn đặt tên](https://github.com/tinhphantrong0612/RESTfulAPI/blob/main/NamingGuide.md)  
 ## 2. Client-Server  
 Client và Server phải có khả năng phát triển độc lập mà không phụ thuộc lẫn nhau.  
 Giữa chúng giao tiếp qua interface, miễn là interface không đổi, thì việc thay thế Client hay Server là điều bình thường.  
